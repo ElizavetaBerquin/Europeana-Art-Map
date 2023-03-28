@@ -1,0 +1,146 @@
+
+.navbar-light .navbar-brand {
+    color: #ffffff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #cccccc;
+}
+
+.navbar-toggler {
+    background: #ffffff;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link {
+    padding: .2rem 1rem;
+}
+
+.nav-link.active,.nav-link:focus{
+    color: #000000;
+}
+
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #000000;
+}
+
+
+/*search box css start here*/
+.search-sec{
+    padding: 2rem;
+
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+@media (min-width: 992px){
+    .search-sec{
+        position: relative;
+        top: -114px;
+        background: rgba(26, 70, 104, 0.51);
+    }
+}
+
+@media (max-width: 992px){
+    .search-sec{
+        background: #1A4668;
+    }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.person {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0, 0.3);
+    margin: 10px;
+    text-align: center;
+}
+
+.button {
+    border: none;
+    outline: none;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background-color: darkslategrey;
+    text-align: center;
+    width: 100%;
+    button-radius: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.site-logo {
+    width: 4%;
+    margin: 10px;
+}
+
+.buttontwo {
+    border:none;
+    outline: none;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background-color: darkslategrey;
+    text-align: center;
+    width: 25%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttontwo:hover {
+    background-color: black;
+}

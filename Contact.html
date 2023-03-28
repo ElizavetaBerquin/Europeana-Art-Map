@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Europeana, art, gallery">
+    <meta name="description" content="A different way to browse Europeana!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+    <style>
+        h1 {font-size: 4vw;}
+        h2 {font-size: 3vw;}
+        h3 {font-size: 2vw;}
+    </style>
+
+</head>
+<body>
+<section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <img class="site-logo" src="Image/Logo_short_V3.png" alt="Logo Europeana Art Map">
+            <a class="navbar-brand" href="Index.html">Europeana Art Map</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Europeana.html">Europeana</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About_us.html">About Us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<!-- start contact section  -->
+<section class="contact-form pb-0">
+    <div class="container">
+        <div class="section-heading">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="display-20 display-md-18 display-lg-16">Get In Touch</h2>
+            <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto">Do you have more information about the cultural institutions on the map? </p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="contact-wrapper-box">
+            <div class="row mb-2-5 mb-lg-7">
+
+                <div class="col-md-6 mb-4">
+
+                        <img src="https://live.staticflickr.com/65535/51177809985_7a838a33aa_w_d.jpg"
+                             class="figure-img img-fluid z-depth-1" alt="..." style="width: 400px">
+                        <figcaption class="figure-caption">Gerard ter Borch, Woman Writing a Letter, Public Domain</figcaption>
+
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <form class="quform" action="quform/contact.php" method="post" enctype="multipart/form-data" onclick="">
+                        <div class="quform-elements">
+                            <div class="row">
+                                <!-- Begin Text input element -->
+                                <div class="col-md-6">
+                                    <div class="quform-element form-group">
+                                        <label for="name">Your Name <span class="quform-required">*</span></label>
+                                        <div class="quform-input">
+                                            <input class="form-control" id="name" type="text" name="name" placeholder="Your name here" />
+                                        </div>
+                                    </div>
+                                </div>
+                                        <!-- End Text input element -->
+
+                                        <!-- Begin Text input element -->
+                                        <div class="col-md-6">
+                                            <div class="quform-element form-group">
+                                                <label for="email">Your Email <span class="quform-required">*</span></label>
+                                                <div class="quform-input">
+                                                    <input class="form-control" id="email" type="text" name="email" placeholder="Your email here" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Text input element -->
+
+                                        <!-- Begin Text input element -->
+                                        <div class="col-md-6">
+                                            <div class="quform-element form-group">
+                                                <label for="subject">Your Subject <span class="quform-required">*</span></label>
+                                                <div class="quform-input">
+                                                    <input class="form-control" id="subject" type="text" name="subject" placeholder="Your subject here" />
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- End Text input element -->
+
+                                        <!-- Begin Text input element -->
+                                        <div class="col-md-6">
+                                            <div class="quform-element form-group">
+                                                <label for="phone">Contact Number</label>
+                                                <div class="quform-input">
+                                                    <input class="form-control" id="phone" type="text" name="phone" placeholder="Your phone here" />
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- End Text input element -->
+
+                                        <!-- Begin Textarea element -->
+                                        <div class="col-md-12">
+                                            <div class="quform-element form-group">
+                                                <label for="message">Message <span class="quform-required">*</span></label>
+                                                <div class="quform-input">
+                                                    <textarea class="form-control" id="message" name="message" rows="3" placeholder="Tell us a few words"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Textarea element -->
+
+                                        <!-- Begin Submit button -->
+                                        <div class="col-md-12">
+                                            <div class="quform-submit-inner">
+                                                <a href="mailto:europeanaartmap@gmail.com"><button class="buttontwo" type="submit"><span>Send Message</span></button></a>
+                                            </div>
+                                            <div class="quform-loading-wrap text-left"><span class="quform-loading"></span></div>
+                                        </div>
+                                        <!-- End Submit button -->
+
+                                </div>
+
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end contact section -->
+<footer class="text-center text-lg-start bg-light text-muted">
+
+    <!-- Section: Links  -->
+    <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        <br>
+                        Europeana Links
+                    </h6>
+                    <p>
+                        <a href="https://www.europeana.eu/en/collections" class="text-reset">Europeana Collection</a>
+                    </p>
+                    <p>
+                        <a href="https://www.europeana.eu/en/exhibitions" class="text-reset">Europeana Exhibitions</a>
+                    </p>
+                    <p>
+                        <a href="https://pro.europeana.eu/page/apis" class="text-reset">Europeana APIs</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        <br>
+                        Our Mission
+                    </h6>
+                    <p>
+                        Bring awareness to the institutions.
+                        <br>
+                        Share and reuse cultural heritage.
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        <br>
+                        Contact
+                    </h6>
+                    <p><i class="fas fa-home me-3"></i> Celestijnenlaan 200A, 3001 Leuven,Belgium</p>
+                    <p>
+                        <i class="fas fa-envelope me-3"></i>
+                        <a href="mailto:europeanaartmap@gmail.com">europeanaartmap@gmail.com</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" >EB, LG, QG & FM</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</body>
+</html>
